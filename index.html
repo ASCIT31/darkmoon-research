@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Darkmoon Research — Autonomous AI Penetration Testing: Lab Evidence</title>
+<meta name="description" content="Evidence corpus from autonomous AI penetration testing agents across cloud, identity, CI/CD, IaC, data and IoT firmware — validated end-to-end on public labs (Pwned Labs, OWASP IoTGoat).">
+<meta name="keywords" content="pentesting ai, AI penetration testing, autonomous penetration testing, cloud penetration testing, IoT firmware security">
+<meta property="og:title" content="Darkmoon Research — Autonomous AI Penetration Testing Evidence">
+<meta property="og:description" content="Real agent output across cloud, identity, CI/CD, IaC, data and IoT firmware, on public labs.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://ascit31.github.io/darkmoon-research/">
+<style>
+  :root{--bg:#050609;--panel:#0e1118;--fg:#e8ecf4;--muted:#9aa4b8;--accent:#6f7cff;--line:#1c2230}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:clamp(1.25rem,4vw,3rem)}
+  header{border-bottom:1px solid var(--line);padding-bottom:1.5rem;margin-bottom:2rem}
+  h1{font-size:clamp(1.6rem,5vw,2.4rem);line-height:1.15;margin:0 0 .6rem}
+  h2{font-size:clamp(1.2rem,3.5vw,1.5rem);margin:2.4rem 0 .8rem;color:#fff}
+  p{color:var(--muted);max-width:70ch}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .tag{display:inline-block;font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:.15rem .6rem;margin:.15rem .3rem .15rem 0}
+  table{width:100%;border-collapse:collapse;margin:.5rem 0 1rem;font-size:.95rem}
+  th,td{text-align:left;padding:.6rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:#fff;font-weight:600}
+  .grid{overflow-x:auto}
+  code{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:.1rem .35rem;font-size:.85em}
+  footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+  .lead{color:#c7cee0;font-size:1.05rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Darkmoon Research</h1>
+  <p class="lead">The evidence corpus behind Darkmoon's autonomous AI penetration-testing agents. Every report below is real agent output — an orchestrator that fingerprints a target and dispatches specialist sub-agents — run end-to-end against <strong>public training labs</strong>. No client data.</p>
+  <span class="tag">pentesting ai</span><span class="tag">autonomous penetration testing</span><span class="tag">cloud penetration testing</span><span class="tag">IoT firmware security</span>
+</header>
+
+<p>Autonomous pentest tools are easy to demo and hard to trust. This corpus publishes the actual output across six planes — cloud, identity, CI/CD, IaC, data/secrets and embedded firmware — so the method can be inspected and reproduced. Read the <a href="https://github.com/ASCIT31/darkmoon-research/blob/main/docs/methodology.md">methodology</a> and the <a href="https://github.com/ASCIT31/darkmoon-research/blob/main/docs/agent-hardening.md">agent-hardening log</a> (the failure modes the labs surfaced and how they were fixed).</p>
+
+<h2>☁️ Cloud &amp; identity</h2>
+<div class="grid"><table>
+<tr><th>Lab</th><th>Technique</th><th>Report</th></tr>
+<tr><td>Pwned Labs — S3</td><td>AWS keys → S3 exfiltration</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/aws-pwnedlabs-online.md">open</a></td></tr>
+<tr><td>Huge Logistics S3</td><td>anonymous / object-versioning exfiltration</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/aws-s3-huge-logistics.md">open</a></td></tr>
+<tr><td>Azure Blob → Entra</td><td>versioned secret → ROPC → tenant path</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/azure-entra-pwnedlabs.md">open</a></td></tr>
+<tr><td>Azure Recon (BloodHound)</td><td>Entra/Azure role graph</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/azure-bloodhound-pwnedlabs.md">open</a></td></tr>
+<tr><td>Azure Key Vault</td><td>secrets → password-reuse pivot → Storage Table PII</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/azure-keyvault-pwnedlabs.md">open</a> · <a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/azure-keyvault-confirm.md">confirm</a></td></tr>
+<tr><td>GCS Hidden Files</td><td>object-name fuzzing → archive crack → PII</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/gcp-storage-pwnedlabs.md">open</a></td></tr>
+<tr><td>SSRF with Gopher → GCP</td><td>gopher metadata smuggling → SA token → bucket</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/cloud/gcp-ssrf-gopher-pwnedlabs.md">open</a></td></tr>
+</table></div>
+
+<h2>🔌 IoT / firmware — OWASP IoTGoat</h2>
+<div class="grid"><table>
+<tr><th>Mode</th><th>Technique</th><th>Report</th></tr>
+<tr><td>IMAGE</td><td>binwalk extraction, shadow crack, backdoor &amp; CVE mapping</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/iot/iotgoat-firmware-image.md">open</a></td></tr>
+<tr><td>DEVICE</td><td>live root via backdoor, Mirai-default SSH, LuCI RCE</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/iot/iotgoat-device-live.md">open</a></td></tr>
+</table></div>
+
+<h2>🏗️ Infrastructure, data &amp; secrets</h2>
+<div class="grid"><table>
+<tr><th>Lab</th><th>Plane</th><th>Report</th></tr>
+<tr><td>Terraform + AWS + Ansible</td><td>IaC state secrets → IAM privesc</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/infrastructure/terraform-aws-ansible.md">open</a></td></tr>
+<tr><td>Vault + Registry + Docker</td><td>secrets → registry → container escape</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/infrastructure/vault-registry-docker.md">open</a></td></tr>
+<tr><td>PostgreSQL + MySQL</td><td>data-plane RCE, hash dump</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/infrastructure/sql-databases_pg-mysql.md">open</a></td></tr>
+<tr><td>Redis / messaging</td><td>broker &amp; cache exposure</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/infrastructure/messaging-cache_redis.md">open</a></td></tr>
+<tr><td>GitLab</td><td>CI/CD supply-chain &amp; secrets</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/infrastructure/gitlab.md">open</a></td></tr>
+<tr><td>Jenkins</td><td>CI/CD runner &amp; credentials</td><td><a href="https://github.com/ASCIT31/darkmoon-research/blob/main/reports/infrastructure/jenkins.md">open</a></td></tr>
+</table></div>
+
+<footer>
+  Platform: <a href="https://github.com/ASCIT31/Dark-Moon">ASCIT31/Dark-Moon</a> (GPL-3.0) ·
+  Web benchmark: <a href="https://github.com/ASCIT31/Darkmoon-Benchmarks">Darkmoon-Benchmarks</a> ·
+  Published for research and education. All targets are public training labs.
+</footer>
+</div>
+</body>
+</html>
