@@ -22,6 +22,14 @@ If Darkmoon is useful, a star on the [main repo](https://github.com/ASCIT31/Dark
 
 <sub>The open source Darkmoon CLI, its terminal environment model, the recon evidence each report in this corpus is built from, captured black-box against a public lab.</sub>
 
+<br>
+
+<img src=".github/assets/infra-map-2.png" alt="Pro web dashboard, Darkmoon infrastructure map with per-finding evidence" width="90%">
+
+<sub><b>Pro:</b> the paid Darkmoon Pro web dashboard, its infrastructure map, targets, connections and per-finding evidence across planes.</sub>
+
+<sub><b>Web dashboard and remediation are Darkmoon Pro (paid) features; the open source edition is the CLI shown above.</b></sub>
+
 </div>
 
 ---
