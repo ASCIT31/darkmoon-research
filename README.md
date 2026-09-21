@@ -1,16 +1,26 @@
 <div align="center">
 
+<a href="https://github.com/ASCIT31/Dark-Moon"><img src=".github/assets/darkmoon-banner.png" alt="Darkmoon, autonomous AI penetration testing" width="100%"></a>
+
 # Darkmoon Research, autonomous AI penetration testing evidence corpus
 
 ### Part of [Darkmoon, the open source autonomous AI penetration testing platform](https://github.com/ASCIT31/Dark-Moon)
 
 [![Star Dark-Moon](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=social)](https://github.com/ASCIT31/Dark-Moon)
 
+[![License GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-0A2472)](https://github.com/ASCIT31/Dark-Moon) [![Evidence corpus](https://img.shields.io/badge/evidence-real%20agent%20output-2667FF)](https://github.com/ASCIT31/darkmoon-research) [![Public labs only](https://img.shields.io/badge/targets-public%20training%20labs-87BFFF)](https://github.com/ASCIT31/darkmoon-research) [![Website](https://img.shields.io/badge/site-dark--moon.org-0A2472)](https://dark-moon.org)
+
 **Real reports from autonomous AI penetration testing runs, the raw AI security testing evidence behind Darkmoon's multi-agent engine. 50 specialist AI agents. Real exploits chained across web, cloud, Active Directory and Kubernetes. Proof for every finding. Self-hosted, and the Privacy Gateway tokenizes your real values so the model works on placeholders while your real IPs, hosts and credentials stay on your perimeter.**
 
 If Darkmoon is useful, a star on the [main repo](https://github.com/ASCIT31/Dark-Moon) helps others find it.
 
 [**⭐ Star DarkMoon**](https://github.com/ASCIT31/Dark-Moon) · [**▶️ Watch the 60s demo**](https://youtu.be/1bFRVuMkZzY?si=peKxwuxzbXBnb2zO) · [**Darkmoon autonomous AI penetration testing**](https://dark-moon.org) · [**AI pentest tool comparison**](https://dark-moon.org/comparison/) · [**remediation benchmark (Pro)**](https://dark-moon.org/remediation-benchmark/) · [**visual walkthrough**](https://dark-moon.org/walkthrough/) · [**benchmark results**](https://github.com/ASCIT31/Darkmoon-Benchmarks)
+
+<br>
+
+<img src=".github/assets/infra-map-2.png" alt="Darkmoon infrastructure map, nodes, connections and per-finding evidence across planes" width="90%">
+
+<sub>Darkmoon's infrastructure map, targets, connections and per-finding evidence across web, cloud, identity and infrastructure planes.</sub>
 
 </div>
 
