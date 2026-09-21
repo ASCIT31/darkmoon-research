@@ -18,9 +18,9 @@ If Darkmoon is useful, a star on the [main repo](https://github.com/ASCIT31/Dark
 
 <br>
 
-<img src=".github/assets/infra-map-2.png" alt="Darkmoon infrastructure map, nodes, connections and per-finding evidence across planes" width="90%">
+<img src=".github/assets/cli_enumeration.png" alt="Darkmoon open source CLI, terminal environment model summary from black-box recon of the target" width="90%">
 
-<sub>Darkmoon's infrastructure map, targets, connections and per-finding evidence across web, cloud, identity and infrastructure planes.</sub>
+<sub>The open source Darkmoon CLI, its terminal environment model, the recon evidence each report in this corpus is built from, captured black-box against a public lab.</sub>
 
 </div>
 
