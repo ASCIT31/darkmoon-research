@@ -8,7 +8,7 @@
 
 [![Star Dark-Moon](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=social)](https://github.com/ASCIT31/Dark-Moon)
 
-[![License GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-0A2472)](https://github.com/ASCIT31/Dark-Moon) [![Evidence corpus](https://img.shields.io/badge/evidence-real%20agent%20output-2667FF)](https://github.com/ASCIT31/darkmoon-research) [![Public labs only](https://img.shields.io/badge/targets-public%20training%20labs-87BFFF)](https://github.com/ASCIT31/darkmoon-research) [![Website](https://img.shields.io/badge/site-dark--moon.org-0A2472)](https://dark-moon.org)
+[![Darkmoon license AGPL-3.0](https://img.shields.io/badge/Darkmoon%20license-AGPL--3.0-0A2472)](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md) [![Evidence corpus](https://img.shields.io/badge/evidence-real%20agent%20output-2667FF)](https://github.com/ASCIT31/darkmoon-research) [![Public labs only](https://img.shields.io/badge/targets-public%20training%20labs-87BFFF)](https://github.com/ASCIT31/darkmoon-research) [![Website](https://img.shields.io/badge/site-dark--moon.org-0A2472)](https://dark-moon.org)
 
 **Real reports from autonomous AI penetration testing runs, the raw AI security testing evidence behind Darkmoon's multi-agent engine. 50 specialist AI agents. Real exploits chained across web, cloud, Active Directory and Kubernetes. Proof for every finding. Self-hosted, and the Privacy Gateway tokenizes your real values so the model works on placeholders while your real IPs, hosts and credentials stay on your perimeter.**
 
@@ -43,7 +43,7 @@ This repository is the **evidence corpus** behind Darkmoon's autonomous penetrat
 
 No client data appears in this repository. All targets are public, deliberately-vulnerable training environments (Pwned Labs, OWASP IoTGoat) or locally-hosted lab services.
 
-- Platform: [ASCIT31/Dark-Moon](https://github.com/ASCIT31/Dark-Moon) (GPL-3.0)
+- Platform: [ASCIT31/Dark-Moon](https://github.com/ASCIT31/Dark-Moon) ([AGPL-3.0](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md))
 - Reproducible web benchmark: [ASCIT31/Darkmoon-Benchmarks](https://github.com/ASCIT31/Darkmoon-Benchmarks)
 
 ---
