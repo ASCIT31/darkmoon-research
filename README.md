@@ -32,6 +32,9 @@ If Darkmoon is useful, a star on the [main repo](https://github.com/ASCIT31/Dark
 
 </div>
 
+> [!IMPORTANT]
+> **License change.** Darkmoon Community is moving from the GNU GPL v3.0 to the GNU AGPL v3.0. Every commit published up to `edfe9cb` (27 October 2026) stays under the GNU GPL v3.0, and the contributions made by outside contributors before the switch also stay under the GNU GPL v3.0 (they are not relicensed). Details: [LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
+
 ---
 
 # Darkmoon Research — Autonomous Multi-Agent Penetration Testing: Lab Evidence
