@@ -24,9 +24,9 @@ If Darkmoon is useful, a star on the [main repo](https://github.com/ASCIT31/Dark
 
 <br>
 
-<img src=".github/assets/pro-infra-map.png" alt="Pro web dashboard, Darkmoon zoned infrastructure map with evidence-backed attack paths, choke point and critical assets" width="90%">
+<img src=".github/assets/pro-infra-map.png" alt="Pro web dashboard, Darkmoon zoned campaign map of an anonymised OWASP Juice Shop campaign: Internet, Edge, Application and Data zones with 30 assets, edges labelled contains, stack, endpoint, runs and root, and per-asset finding counts" width="90%">
 
-<sub><b>Pro:</b> the paid Darkmoon Pro web dashboard, its infrastructure map: assets grouped into Internet, Application, Edge and Data zones, evidence-backed attack paths, the choke point and the critical assets they reach, with per-finding evidence in the side rail.</sub>
+<sub><b>Pro:</b> the paid Darkmoon Pro web dashboard, its campaign map: assets grouped into Internet, Edge, Application and Data zones, wired with labelled edges (contains, stack, endpoint, runs, root) and carrying their finding counts. Shown: an anonymised real OWASP Juice Shop campaign, 30 assets and 57 findings.</sub>
 
 <sub><b>Web dashboard and remediation are Darkmoon Pro (paid) features; the open source edition is the CLI shown above.</b></sub>
 
