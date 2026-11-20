@@ -8,7 +8,7 @@
 
 [![Star Dark-Moon](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=social)](https://github.com/ASCIT31/Dark-Moon)
 
-[![Darkmoon license AGPL-3.0](https://img.shields.io/badge/Darkmoon%20license-AGPL--3.0-0A2472)](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md) [![Evidence corpus](https://img.shields.io/badge/evidence-real%20agent%20output-2667FF)](https://github.com/ASCIT31/darkmoon-research) [![Public labs only](https://img.shields.io/badge/targets-public%20training%20labs-87BFFF)](https://github.com/ASCIT31/darkmoon-research) [![Website](https://img.shields.io/badge/site-dark--moon.org-0A2472)](https://dark-moon.org)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-0A2472)](LICENSING.md) [![Darkmoon license AGPL-3.0](https://img.shields.io/badge/Darkmoon%20license-AGPL--3.0-0A2472)](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md) [![Evidence corpus](https://img.shields.io/badge/evidence-real%20agent%20output-2667FF)](https://github.com/ASCIT31/darkmoon-research) [![Public labs only](https://img.shields.io/badge/targets-public%20training%20labs-87BFFF)](https://github.com/ASCIT31/darkmoon-research) [![Website](https://img.shields.io/badge/site-dark--moon.org-0A2472)](https://dark-moon.org)
 
 **Real reports from autonomous AI penetration testing runs, the raw AI security testing evidence behind Darkmoon's multi-agent engine. 50 specialist AI agents. Real exploits chained across web, cloud, Active Directory and Kubernetes. Proof for every finding. Self-hosted, and the Privacy Gateway tokenizes your real values so the model works on placeholders while your real IPs, hosts and credentials stay on your perimeter.**
 
@@ -33,7 +33,7 @@ If Darkmoon is useful, a star on the [main repo](https://github.com/ASCIT31/Dark
 </div>
 
 > [!IMPORTANT]
-> **License change.** Darkmoon Community is moving from the GNU GPL v3.0 to the GNU AGPL v3.0. Every commit published up to `edfe9cb` (27 October 2026) stays under the GNU GPL v3.0, and the contributions made by outside contributors before the switch also stay under the GNU GPL v3.0 (they are not relicensed). Details: [LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
+> **License change.** This repository is licensed under the GNU AGPL v3.0 since 20 November 2026 (commits up to `c0d092b` had no licence file). Darkmoon Community is moving to the GNU AGPL v3.0 too (its commits up to `edfe9cb`, 27 October 2026, and earlier outside contributions stay GPL v3.0). Details: [LICENSING.md](LICENSING.md) · [Darkmoon LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
 
 ---
 
@@ -97,5 +97,7 @@ Each engagement follows the same loop: **fingerprint → dispatch specialist →
 Every report is server-generated from the pushed findings and follows the same structure: management summary, findings table, then a per-finding section with description, exploitation commands, raw evidence, CVSS 3.1 and remediation. The status of each finding is qualified adversarially — `EXPLOITED` (impact executed), `CONFIRMED` (impact demonstrated), `UNCONFIRMED` (lead, not yet proven) — so the counts are honest.
 
 ## License & ethics
+
+This repository is licensed under the GNU AGPL v3.0 (AGPL-3.0-only), see [LICENSE](LICENSE) and [LICENSING.md](LICENSING.md). Commits up to `c0d092b` had no licence file. Third-party content quoted in the reports (tool output, version banners) keeps its own licence.
 
 Published for research and education. All targets are public training labs; do not point these agents at systems you are not authorized to test.
